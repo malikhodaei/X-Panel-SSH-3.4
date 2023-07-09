@@ -75,12 +75,12 @@ chmod 777 /var/www/html/
 برای نصب کافیست دستور زیر را وارد کنید<br>
 	بعد از بروزرسانی حتما لینک مقابل را با ip و پورت پنل یکبار در مروگر باز کنید  <b>ip:port/reinstall</b><br>
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Alirezad07/X-Panel-SSH-User-Management/main/install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/malikhodaei/X-Panel-SSH-3.4/main/install.sh --ipv4)
 ```
 
 حل مشکل عدم ارتباط  تماس صوتی و تصویری در اپلیکشن
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Alirezad07/X-Panel-SSH-User-Management/master/fix-call.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/malikhodaei/X-Panel-SSH-3.4/main/fix-call.sh --ipv4)
 ```
 دستور بالا را در ترمینال وارد کنید سپس برای UDPGW پورت جدید تعریف کنید بهتر است به جای پورت 7300 پورت 7301 یا 7302 را تنظیم کنید
 <br>
@@ -93,7 +93,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/Alirezad07/X-Panel-SSH-User-Ma
 ```
 ## فعال سازی SSL
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Alirezad07/X-Panel-SSH-User-Management/main/ssl.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/malikhodaei/X-Panel-SSH-3.4/main/ssl.sh --ipv4)
 ```
 با استفاده از دستور بالا می توانید SSL را روی پنل نصب نمائید. به نکات زیر توجه کنید <br>
 1- حتما قبل از نصب SSL پنل را بروز کنید<br>
